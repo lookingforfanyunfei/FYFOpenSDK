@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s x86_64',
 #    'DEFINES_MODULE' => 'YES',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   # 组件支持swift混编的版本
 #  s.swift_versions = ['5.1', '5.2','5.3', '5.4','5.5']
