@@ -1,0 +1,16 @@
+PODS:
+  - FYFOpenSDK (0.1.0)
+
+DEPENDENCIES:
+  - FYFOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  FYFOpenSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFOpenSDK: 6dac64d6955332080cffc78b1ef3f1bc6bf18fba
+
+PODFILE CHECKSUM: 95ca21a5eb6eab9d9d79da198c700113d110fb2d
+
+COCOAPODS: 1.11.3

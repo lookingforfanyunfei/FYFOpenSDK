@@ -1,0 +1,1 @@
+../../../../../FYFOpenSDK/Classes/WechatAuthSDK.h

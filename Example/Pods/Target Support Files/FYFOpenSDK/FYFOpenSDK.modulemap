@@ -1,0 +1,6 @@
+framework module FYFOpenSDK {
+  umbrella header "FYFOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

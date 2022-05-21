@@ -1,0 +1,6 @@
+framework module Pods_FYFOpenSDK_Tests {
+  umbrella header "Pods-FYFOpenSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
