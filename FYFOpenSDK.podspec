@@ -33,16 +33,16 @@ Pod::Spec.new do |s|
   # 组件支持的架构，并且module化，为后期组件混编做准备，也为了规范化管理
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s x86_64',
-    'DEFINES_MODULE' => 'YES'
+#    'DEFINES_MODULE' => 'YES',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   # 组件支持swift混编的版本
-  s.swift_versions = ['5.1', '5.2','5.3', '5.4','5.5']
+#  s.swift_versions = ['5.1', '5.2','5.3', '5.4','5.5']
   
-  s.vendored_libraries = "FYFOpenSDK/Library/*.a"
-  s.public_header_files = 'FYFOpenSDK/Classes/*.h'
+  s.vendored_libraries = "FYFOpenSDK/Library/libWeChatSDK.a"
   s.source_files = 'FYFOpenSDK/Classes/*.h'
   
-  s.frameworks = 'SystemConfiguration','WebKit'
+  s.frameworks = 'CFNetwork','Security','CoreTelephony','SystemConfiguration','WebKit'
   
   s.libraries =  'c++','sqlite3', 'z'
   
