@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FYFOpenSDK_Tests' do
+  pod 'FYFOpenSDK', :path => '../'
+  
+  
+end
