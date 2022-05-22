@@ -28,6 +28,6 @@ pod 'FYFOpenSDK'
 
 FYFOpenSDK is available under the MIT license. See the LICENSE file for more info.
 
-## Official
+## Resource
 
 https://developers.weixin.qq.com/doc/oplatform/Downloads/iOS_Resource.html
