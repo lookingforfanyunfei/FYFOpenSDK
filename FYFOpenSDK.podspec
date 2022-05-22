@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FYFOpenSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FYFOpenSDK.'
+  s.version          = '1.9.2'
+  s.summary          = '基于微信官方开源的SDK.'
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
